@@ -1,0 +1,104 @@
+[
+  {
+    "type": "function",
+    "name": "add_num",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "uint32"
+      },
+      {
+        "name": "b",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "uint32"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "add_str",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "string"
+      },
+      {
+        "name": "b",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "ret_tuple",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "string"
+      },
+      {
+        "name": "arg1",
+        "type": "uint32"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "ret_list",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "bytes3"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "save_str",
+    "inputs": [
+      {
+        "name": "a",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "get_str",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "arg0",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "_list",
+        "type": "string"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+[workspace]
+members =[
+    "wasm_mid",
+    "wasm_std",
+    "wasm2ct",
+    "wasm2ct/wasm2ct_derive",
+    "tests",
+    "congen_from_rust"
+]

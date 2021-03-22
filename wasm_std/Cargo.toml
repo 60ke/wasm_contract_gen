@@ -1,0 +1,22 @@
+[package]
+name = "wasm_std"
+version = "0.1.0"
+authors = ["k <worileqing@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fixed-hash = {version= "0.6.1",default-features = false}
+cfg-if = "1.0"
+uint = { version = "0.8.5", default-features = false }
+tiny-keccak = { version = "2.0.2", default-features = false,features = ["keccak"] }
+byteorder = { version = "1.3.4", default-features = false }
+# wasm_libc = {path = "wasm_libc"}
+# wasm_alloc = {path = "wasm_alloc"}
+
+
+[features]
+std = ["fixed-hash/std", "uint/std", "byteorder/std"]
+test = ["std"]
+panic_with_msg = []
